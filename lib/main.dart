@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 void main() {
   return runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
-          title: Text('Dicee'),
+          title: Text('JUEGO DE DADOS'),
           backgroundColor: Colors.red,
         ),
         body: DicePage(),
